@@ -1,0 +1,76 @@
+body {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.grav-container {
+    box-shadow: #004d0330 0 0 10px 5px;
+    background: #f6f7ff;
+    width: 300px;
+    height: 110px;
+    border-radius: 7px;
+    border-left: 15px solid #4caf50;
+    margin: 0 0 15px 0;
+}
+
+.grav-header {
+    font-size: 1.1em;
+    padding: 5% !important;
+    text-align: right;
+    color: #535053;
+}
+
+.grav-msg {
+    direction: rtl;
+    padding-right: 5% !important;
+    text-align: right;
+}
+
+.grav-container-error{
+    box-shadow: #90000729 0 0 10px 5px;
+    border-left: 15px solid #d32f2f;
+}
+
+
+.grav-container-cancel{
+    box-shadow: #fbae0040 0 0 10px 5px;
+    border-left: 15px solid #fbae00;
+}
+
+
+
+.gform_button_reporter[value='ارسال']{
+    background: #4caf50;
+    color: #FFF;
+    border-radius: 100px;
+    text-align: center !important;
+}
+
+.gform_footer{
+    text-align: center !important;
+}
+
+
+.ginput_recaptcha div:first-child{
+    width: 100% !important;
+}
+
+
+.desibale_input_reporter{
+    background: #e2e2e2 !important;
+}
+
+.desibale_input_reporter::placeholder {
+    color: #212022;
+    opacity: 1;
+}
+
+main .block-content .content form span[class='ginput_product_price']{
+    color: #000 !important;
+    float: right;
+    font-size: 1.7em;
+}
+
+.gf-price-field-marg{
+    padding-bottom: 40px;
+}
